@@ -1,1 +1,1 @@
-GlowScreenTags
+GlowComments
