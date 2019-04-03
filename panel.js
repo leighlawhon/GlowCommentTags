@@ -1,6 +1,6 @@
 
 chrome.identity.launchWebAuthFlow(
-  { 'url': 'https://app.gitkraken.com/oauth/authorize?client_id=bn68kgxxiikgfjj8dh41&redirect_uri=https://laakphkcneokcnkadpjncgidbmeghpbg.chromiumapp.org/provider_cb&response_type=code&scope=board:read board:write user:read', 'interactive': true },
+  { 'url': 'https://app.gitkraken.com/oauth/authorize?client_id=bn68kgxxiikgfjj8dh41&redirect_uri=https://llkkbgfalmdlpbofpadbfhkihlaheohn.chromiumapp.org/provider_cb&response_type=code&scope=board:read board:write user:read', 'interactive': true },
   function (redirect_url) {
 
     const code = getUrlVars(redirect_url, "code");
